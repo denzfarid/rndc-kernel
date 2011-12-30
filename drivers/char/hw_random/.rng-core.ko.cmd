@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/rng-core.ko := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL -r   --build-id -o drivers/char/hw_random/rng-core.ko drivers/char/hw_random/rng-core.o drivers/char/hw_random/rng-core.mod.o

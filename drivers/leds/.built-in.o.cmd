@@ -1,0 +1,1 @@
+cmd_drivers/leds/built-in.o :=  /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/leds/built-in.o drivers/leds/led-core.o drivers/leds/led-class.o drivers/leds/led-triggers.o drivers/leds/leds-cpld.o drivers/leds/leds-lm3530.o drivers/leds/leds-msm-pmic-rgb.o 

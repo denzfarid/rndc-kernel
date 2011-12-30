@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/b43/b43.ko := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL -r   --build-id -o drivers/net/wireless/b43/b43.ko drivers/net/wireless/b43/b43.o drivers/net/wireless/b43/b43.mod.o

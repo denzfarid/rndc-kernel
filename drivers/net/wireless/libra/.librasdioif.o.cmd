@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libra/librasdioif.o := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/net/wireless/libra/librasdioif.o drivers/net/wireless/libra/libra_sdioif.o 

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/built-in.o :=  /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/usb/gadget/built-in.o drivers/usb/gadget/msm72k_udc.o drivers/usb/gadget/g_android.o drivers/usb/gadget/f_rndis.o drivers/usb/gadget/u_ether.o drivers/usb/gadget/f_diag.o 

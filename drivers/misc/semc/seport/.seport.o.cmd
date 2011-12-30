@@ -1,0 +1,1 @@
+cmd_drivers/misc/semc/seport/seport.o := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/misc/semc/seport/seport.o drivers/misc/semc/seport/seport_main.o drivers/misc/semc/seport/seport_button_detect.o drivers/misc/semc/seport/seport_plug_detect.o drivers/misc/semc/seport/seport_dcout_iface.o drivers/misc/semc/seport/seport_attrs.o 

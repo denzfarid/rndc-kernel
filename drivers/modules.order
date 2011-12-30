@@ -1,0 +1,7 @@
+kernel/drivers/char/hw_random/rng-core.ko
+kernel/drivers/net/wireless/b43/b43.ko
+kernel/drivers/net/wireless/b43legacy/b43legacy.ko
+kernel/drivers/net/wireless/p54/p54common.ko
+kernel/drivers/ssb/ssb.ko
+kernel/drivers/oc_shakira/x8oc.ko
+kernel/drivers/uv_shakira/x8uv.ko

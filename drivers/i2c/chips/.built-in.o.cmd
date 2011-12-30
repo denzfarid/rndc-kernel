@@ -1,0 +1,1 @@
+cmd_drivers/i2c/chips/built-in.o :=  /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/i2c/chips/built-in.o drivers/i2c/chips/akm8975.o drivers/i2c/chips/smb380.o drivers/i2c/chips/smb380calib.o drivers/i2c/chips/bma150_driver.o 

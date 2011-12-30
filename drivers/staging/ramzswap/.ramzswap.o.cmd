@@ -1,0 +1,1 @@
+cmd_drivers/staging/ramzswap/ramzswap.o := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/staging/ramzswap/ramzswap.o drivers/staging/ramzswap/ramzswap_drv.o drivers/staging/ramzswap/xvmalloc.o 

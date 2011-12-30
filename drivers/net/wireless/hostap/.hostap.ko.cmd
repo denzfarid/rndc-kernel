@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/hostap/hostap.ko := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL -r   --build-id -o drivers/net/wireless/hostap/hostap.ko drivers/net/wireless/hostap/hostap.o drivers/net/wireless/hostap/hostap.mod.o

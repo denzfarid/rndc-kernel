@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/p54/p54common.ko := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL -r   --build-id -o drivers/net/wireless/p54/p54common.ko drivers/net/wireless/p54/p54common.o drivers/net/wireless/p54/p54common.mod.o

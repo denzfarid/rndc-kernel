@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/built-in.o :=  /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/bluetooth/built-in.o drivers/bluetooth/hci_uart.o drivers/bluetooth/bluetooth-power.o 

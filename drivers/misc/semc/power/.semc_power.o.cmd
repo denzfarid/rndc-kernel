@@ -1,0 +1,1 @@
+cmd_drivers/misc/semc/power/semc_power.o := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/misc/semc/power/semc_power.o drivers/misc/semc/power/power.o drivers/misc/semc/power/bq24180.o 

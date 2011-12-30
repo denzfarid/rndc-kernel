@@ -1,0 +1,1 @@
+cmd_drivers/misc/semc/semcclass.o := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/misc/semc/semcclass.o drivers/misc/semc/semcclass-class.o drivers/misc/semc/semcclass-core.o 

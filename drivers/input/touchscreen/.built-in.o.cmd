@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/synaptics_i2c_rmi4.o drivers/input/touchscreen/cyttsp_core.o drivers/input/touchscreen/cyttsp_i2c.o 
