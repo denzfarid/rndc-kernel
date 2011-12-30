@@ -1,0 +1,12 @@
+cmd_arch/arm/kernel/relocate_kernel.o := /home/azure/Kernel/arm-2010q1/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,arch/arm/kernel/.relocate_kernel.o.d  -nostdinc -isystem /home/azure/Kernel/arm-2010q1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include -Iinclude  -I/home/azure/Kernel/rndc-kernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6k -mtune=arm1136j-s -msoft-float     -c -o arch/arm/kernel/relocate_kernel.o arch/arm/kernel/relocate_kernel.S
+
+deps_arch/arm/kernel/relocate_kernel.o := \
+  arch/arm/kernel/relocate_kernel.S \
+    $(wildcard include/config/cpu/v6.h) \
+    $(wildcard include/config/cpu/v7.h) \
+  /home/azure/Kernel/rndc-kernel/arch/arm/include/asm/kexec.h \
+    $(wildcard include/config/kexec.h) \
+
+arch/arm/kernel/relocate_kernel.o: $(deps_arch/arm/kernel/relocate_kernel.o)
+
+$(deps_arch/arm/kernel/relocate_kernel.o):
